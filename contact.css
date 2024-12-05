@@ -1,0 +1,62 @@
+/* contact.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  background: white;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid lightslategray;
+  border-radius: 4px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+}
+
